@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { EQUIPMENT_TYPES, EQUIPMENT_STATUSES } = require("../config/constants");
+const { EQUIPMENT_TYPES, EQUIPMENT_STATUSES } = require("../configs/constants");
 
 const EquipmentSchema = new mongoose.Schema({
   name: {
